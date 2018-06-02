@@ -1,0 +1,11 @@
+spring:
+  profiles: local
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: payman
+    password: payman
+    driverClassName: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+---
